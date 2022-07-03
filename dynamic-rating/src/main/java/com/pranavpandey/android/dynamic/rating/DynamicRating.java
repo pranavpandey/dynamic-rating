@@ -85,6 +85,8 @@ public class DynamicRating {
      * <p>Must be called before accessing the public methods.
      *
      * @param context The context to retrieve resources.
+     *
+     * @return The singleton instance of {@link DynamicRating}.
      */
     public static synchronized @NonNull DynamicRating getInstance(@Nullable Context context) {
         if (context == null) {

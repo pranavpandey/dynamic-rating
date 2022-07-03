@@ -50,6 +50,8 @@ public interface RatingListener extends RatingBar.OnRatingBarChangeListener {
     /**
      * This method will be called to get the text for the rate action.
      *
+     * @param rating The rating value.
+     *
      * @return The text for the rate action to be used.
      */
     @Nullable CharSequence getActionRate(float rating);
@@ -64,12 +66,16 @@ public interface RatingListener extends RatingBar.OnRatingBarChangeListener {
     /**
      * This method will be called to check if the rating is unknown.
      *
+     * @param rating The rating value to be checked.
+     *
      * @return {@code true} if the rating is unknown.
      */
     boolean isRatingUnknown(float rating);
 
     /**
      * This method will be called to check if the rating is negative.
+     *
+     * @param rating The rating value to be checked.
      *
      * @return {@code true} if the rating is negative.
      */
@@ -78,6 +84,7 @@ public interface RatingListener extends RatingBar.OnRatingBarChangeListener {
     /**
      * This method will be called when user interacts with the rating bar.
      *
+     * @param ratingBar The rating bar.
      * @param rating The rating selected by the user.
      */
     void onRatingSelected(@NonNull RatingBar ratingBar, float rating);

@@ -46,6 +46,7 @@ public abstract class DynamicRatingListener implements RatingListener {
      * Constructor to initialize an object of this class.
      *
      * @param context The context to be used.
+     * @param dynamicRating The dynamic rating object to be used.
      */
     public DynamicRatingListener(@NonNull Context context, @NonNull DynamicRating dynamicRating) {
         this.mContext = context;
