@@ -31,7 +31,7 @@
         android:orientation="vertical">
 
         <com.pranavpandey.android.dynamic.support.widget.DynamicTextView
-            style="@style/TextAppearance.DynamicApp.Dialog.Primary"
+            style="@style/TextAppearance.DynamicApp.Dialog"
             android:id="@+id/adr_dialog_rating_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

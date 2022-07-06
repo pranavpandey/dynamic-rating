@@ -91,7 +91,7 @@ public abstract class DynamicRatingListener implements RatingListener {
             return null;
         }
 
-        return getContext().getString(R.string.ads_nav_category_contribute);
+        return getContext().getString(R.string.adr_contribute);
     }
 
     @Override
@@ -105,7 +105,7 @@ public abstract class DynamicRatingListener implements RatingListener {
             return null;
         }
 
-        return getContext().getString(R.string.ads_later);
+        return getContext().getString(R.string.adr_later);
     }
 
     @Override
@@ -115,7 +115,7 @@ public abstract class DynamicRatingListener implements RatingListener {
         }
 
         return getContext().getString((isRatingUnknown(rating) || !isRatingNegative(rating))
-                ? R.string.ads_rate : R.string.ads_support_feedback);
+                ? R.string.adr_rate : R.string.adr_feedback);
     }
 
     @Override
@@ -124,7 +124,7 @@ public abstract class DynamicRatingListener implements RatingListener {
             return null;
         }
 
-        return getContext().getString(R.string.ads_skip);
+        return getContext().getString(R.string.adr_skip);
     }
 
     @Override
