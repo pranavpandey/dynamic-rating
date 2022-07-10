@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.pranavpandey.android.dynamic.rating"},{"l":"com.pranavpandey.android.dynamic.rating.dialog"},{"l":"com.pranavpandey.android.dynamic.rating.listener"},{"l":"com.pranavpandey.android.dynamic.rating.listener.base"}]
