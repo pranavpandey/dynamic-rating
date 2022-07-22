@@ -53,6 +53,12 @@ useful operations.
 
 ---
 
+## Translations
+
+- Chinese (Traditional) (zh-rTW) - 人工知能
+
+---
+
 ## Author
 
 Pranav Pandey
