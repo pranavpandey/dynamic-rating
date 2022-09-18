@@ -21,7 +21,7 @@ buildscript {
             'targetSdk'  : 33,
             'buildTools' : '33.0.0',
             'preferences': '2.2.2',
-			'support'    : '6.0.3'
+			'support'    : '6.1.0'
     ]
 
     repositories {

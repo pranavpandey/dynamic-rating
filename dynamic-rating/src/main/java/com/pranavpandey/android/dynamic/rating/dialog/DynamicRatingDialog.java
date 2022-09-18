@@ -27,7 +27,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
 
-import com.pranavpandey.android.dynamic.rating.DynamicRating;
 import com.pranavpandey.android.dynamic.rating.R;
 import com.pranavpandey.android.dynamic.rating.Rating;
 import com.pranavpandey.android.dynamic.rating.listener.base.RatingListener;

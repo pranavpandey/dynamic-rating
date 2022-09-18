@@ -96,7 +96,11 @@ public abstract class DynamicRatingListener implements RatingListener {
 
     @Override
     public @Nullable CharSequence getRatingMessage() {
-        return null;
+        if (getContext() == null) {
+            return null;
+        }
+
+        return getContext().getString(R.string.adr_rate_feedback_desc);
     }
 
     @Override
