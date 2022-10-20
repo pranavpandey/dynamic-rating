@@ -16,6 +16,9 @@ A library to ask and remind users to rate the app on Android 4.0 (API 14) and ab
 
 - [Installation](#installation)
 - [Usage](#usage)
+    - [Instance](#instance)
+    - [Initialize](#initialize)
+    - [Rate](#rate)
     - [Sponsor](#sponsor)
     - [Dependency](#dependency)
 - [License](#license)
@@ -40,6 +43,38 @@ dependencies {
 It has various `conditions` that must be met to ask for the rating from the user.
 
 > For a complete reference, please read the [documentation][documentation].
+
+### Instance
+
+`DynamicRating` instance must be used to access its methods.
+
+```java
+// Get instance with application context.
+DynamicRating.getInstance(applicationContext);
+```
+
+After that, its various public methods can be accessed via the returned instance.
+
+### Initialize
+
+It should be `initialized` to set the first launch `timestamp` and to increase the counter when
+required.
+
+```java
+// Initialize with default values.
+DynamicRating.getInstance(applicationContext).initialize();
+```
+
+### Rate
+
+Call the `shouldRate()` method to check whether we can show the rating dialog to the user
+according to the set conditions.
+
+```java
+// Get instance and then check if we should ask to rate.
+// Returns `true` if all the rating conditions are met.
+DynamicRating.getInstance(context).initialize().shouldRate();
+```
 
 ### Sponsor
 
