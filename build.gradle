@@ -20,8 +20,8 @@ buildscript {
             'minSdk'     : 14,
             'targetSdk'  : 33,
             'buildTools' : '33.0.2',
-            'preferences': '2.2.2',
-            'support'    : '6.1.0'
+            'preferences': '2.2.3',
+            'support'    : '6.2.1'
     ]
 
     repositories {
