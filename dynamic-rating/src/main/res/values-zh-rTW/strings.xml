@@ -21,10 +21,10 @@
     <string name="adr_rate">評價</string>
     <string name="adr_contribute">貢獻</string>
     <string name="adr_feedback">回馈</string>
-    <string name="adr_later">之後</string>
+    <string name="adr_later">稍後</string>
     <string name="adr_skip">跳過</string>
 
     <!-- Info -->
-    <string name="adr_rate_feedback_desc">請評價以支援開發或提供回饋以使事情變得更好。</string>
+    <string name="adr_rate_feedback_desc">請評價以支持開發或提供回饋以使事情變得更好。</string>
 
 </resources>
