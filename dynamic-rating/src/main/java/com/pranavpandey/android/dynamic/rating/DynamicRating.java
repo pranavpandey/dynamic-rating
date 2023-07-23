@@ -394,6 +394,6 @@ public class DynamicRating {
      */
     private void setRequest(boolean request) {
         DynamicPreferences.getInstance().save(Rating.PREFS,
-                getKey(Rating.Key.IS_REQUEST), request);
+                getKey(Rating.Key.IS_REQUEST), (Boolean) request);
     }
 }
