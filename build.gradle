@@ -67,8 +67,8 @@ ext {
     mavenDir = 'com/pranavpandey/android'
     mavenArtifactId = 'dynamic-rating'
     mavenInceptionYear = '2022'
-    mavenVersion = '1.1.0'
-    mavenVersionCode = 5
+    mavenVersion = '1.1.1'
+    mavenVersionCode = 6
 
     developerId = 'pranavpandey'
     developerName = 'Pranav Pandey'
